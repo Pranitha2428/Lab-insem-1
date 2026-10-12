@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Online Course Website</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+
+        <h2>LearnOnline</h2>
+
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#courses">Courses</a>
+            <a href="#login">Login</a>
+        </div>
+
+    </nav>
+
+
+    <!-- Main Content -->
+    <main>
+
+        <section class="hero">
+
+            <h1>Learn New Skills Online</h1>
+
+            <p>
+                Choose from different courses and improve your skills.
+            </p>
+
+        </section>
+
+
+        <!-- Courses Section -->
+        <section id="courses">
+
+            <h2 class="section-title">Available Courses</h2>
+
+            <div class="courses">
+
+                <!-- Course 1 -->
+                <div class="course">
+
+                    <h3>Java Programming</h3>
+
+                    <p>
+                        Learn Java from basics to advanced concepts.
+                    </p>
+
+                    <p><b>Duration:</b> 6 Weeks</p>
+
+                    <button onclick="enroll('Java Programming')">
+                        Enroll
+                    </button>
+
+                </div>
+
+
+                <!-- Course 2 -->
+                <div class="course">
+
+                    <h3>Web Development</h3>
+
+                    <p>
+                        Learn HTML, CSS and JavaScript.
+                    </p>
+
+                    <p><b>Duration:</b> 8 Weeks</p>
+
+                    <button onclick="enroll('Web Development')">
+                        Enroll
+                    </button>
+
+                </div>
+
+
+                <!-- Course 3 -->
+                <div class="course">
+
+                    <h3>Python Programming</h3>
+
+                    <p>
+                        Learn Python programming and AI basics.
+                    </p>
+
+                    <p><b>Duration:</b> 6 Weeks</p>
+
+                    <button onclick="enroll('Python Programming')">
+                        Enroll
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Login Section -->
+        <section class="login" id="login">
+
+            <h2>Login</h2>
+
+            <input
+                type="text"
+                id="username"
+                placeholder="Enter Username"
+            >
+
+            <input
+                type="password"
+                id="password"
+                placeholder="Enter Password"
+            >
+
+            <button onclick="login()">
+                Login
+            </button>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>© 2026 LearnOnline</p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
